@@ -1,0 +1,8 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ollama-docker/ollama-cloud-run', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/ollama-docker/ollama-cloud-run']
+
+images:
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/ollama-docker/ollama-cloud-run'
