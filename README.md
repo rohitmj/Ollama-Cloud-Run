@@ -37,8 +37,7 @@ After deployment, I attempted to download the **Gemma 2:2B** model in **Cloud Sh
 ## Step 4: Using a Smaller LLM Model
 Since **Gemma 2:2B** required more memory than available, I opted for a smaller LLM, **SmolLM 2:135M**, which successfully ran without memory issues.
 
-![Successful Deployment of SmolLM]![image](https://github.com/user-attachments/assets/1dbd384a-88f3-4797-b849-69fc47a3485c)
-
+![Successful Deployment of SmolLM](https://github.com/user-attachments/assets/1dbd384a-88f3-4797-b849-69fc47a3485c)
 
 ---
 
